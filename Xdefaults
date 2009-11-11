@@ -1,0 +1,82 @@
+!-------------------------------------------------------------------------------
+!
+!	U R X V T
+!
+! General
+!urxvt*geometry:         80x26
+urxvt.termName:  rxvt-256color
+urxvt.loginShell:         true
+urxvt.scrollBar:         false
+urxvt.secondaryScroll:    true
+urxvt.saveLines:         65535
+urxvt.cursorBlink:       false
+!urxvt.urgentOnBell:       true
+!urxvt.borderLess:       false
+!urxvt.borderWidth:          1
+!urxvt.internalBorder:       0
+URxvt.transparent: true
+URxvt.tintColor: #000000
+URxvt.shading: 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+
+! Extensions
+urxvt*perl-lib:         /usr/lib/urxvt/perl/
+urxvt*perl-ext-common:  default,matcher,searchable-scrollback
+urxvt*urlLauncher:      /usr/bin/firefox
+urxvt*matcher.button:   1
+! So we catch even nasty URLs
+urxvt.cutchars:         `()'*<>[]{|}"
+URxvt*cutchars:         `"()'*<>[]{|}
+!
+! Appearance
+urxvt.font:             -*-lime-*-*-*-*-*-*-*-*-*-*-*-*
+urxvt.boldFont:         -*-lime-*-*-*-*-*-*-*-*-*-*-*-*
+!
+! Cursor
+urxvt.cursorColor: #DCDCCC
+
+!*background: #1e1e1e
+!*foreground: #a0a0a0
+!*color0: #1e1e1e
+!*color8: #555753
+!*color1: #c8202d
+!*color9: #a81e30
+!*color2: #accd37
+!*color10: #d0dd41
+!*color3: #f7d325
+!*color11: #f5b915
+!*color4: #3465A4
+!*color12: #729FCF
+!*color5: #75507B
+!*color13: #AD7FA8
+!*color6: #23a3a0
+!*color14: #2e8483
+!*color7: #9f9f9f
+!*color15: #e0e0e0
+*foreground: #DDEEDD
+*background: #1C1C1C
+
+!black
+*color0: #1C1C1C
+*color8: #4d4d4d
+!red
+*color1: #D81860
+*color9: #F00060
+!green
+*color2: #B7CE42
+*color10: #BDE077
+!yellow
+*color3: #FEA63C
+*color11: #FFE863
+!blue
+*color4: #66AABB
+*color12: #AACCBB
+!magenta
+*color5: #B7416E
+*color13: #BB4466
+!cyan
+*color6: #5E7175
+*color14: #A3BABF
+!white
+*color7: #DDEEDD
+*color15: #6C887A
+

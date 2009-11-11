@@ -1,0 +1,43 @@
+## - 0 - default window color
+## - 1 - black
+## - 2 - red
+## - 3 - green
+## - 4 - yellow
+## - 5 - blue
+## - 6 - magenta
+## - 7 - cyan
+## - 8 - white
+## - 9 - end of current color
+
+## %l - length
+## %f - short filename
+## %F - full filename
+## %a - artist
+## %t - title
+## %b - album
+## %y - year
+## %n - track number
+## %g - genre
+## %c - composer
+## %p - performer
+## %d - disc
+## %C - comment
+## %r - begin right align
+
+playlist_display_mode = "columns"
+browser_display_mode = "columns"
+search_engine_display_mode = "columns"
+progressbar_color = "black"
+song_list_format = "{$3[%l]$9} {$5%a$9} {$6%t$9} %r {$2%b$9}"
+song_columns_list_format = "(7)[black]{l} (20)[red]{a} (35)[cyan]{t} (28)[black]{b}"
+incremental_seeking = "yes"
+autocenter_mode = "yes"
+header_visibility = "no"
+statusbar_visibility = "no"
+progressbar_visibility = "no"
+fancy_scrolling = "yes"
+follow_now_playing_lyrics = "yes"
+display_screens_numbers_on_start = "yes"
+ignore_leading_the = "yes"
+lyrics_database = "2"
+colors_enabled = "yes"
