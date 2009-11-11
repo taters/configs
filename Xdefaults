@@ -16,7 +16,7 @@ urxvt.cursorBlink:       false
 !urxvt.internalBorder:       0
 URxvt.transparent: true
 URxvt.tintColor: #000000
-URxvt.shading: 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+URxvt.shading: 20 
 
 ! Extensions
 urxvt*perl-lib:         /usr/lib/urxvt/perl/
